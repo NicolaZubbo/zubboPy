@@ -1,1 +1,13 @@
 
+stringa = "matita"
+stringalist = list(stringa)
+
+class calcComb:
+
+    def __init__(self,stringalist):
+        
+        self.stringalist = stringalist
+
+
+
+print(stringalist)
