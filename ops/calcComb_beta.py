@@ -1,3 +1,4 @@
+Import words.italian.txt
 class calcComb():
 
     def __init__(self, stringa):
