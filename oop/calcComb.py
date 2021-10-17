@@ -19,11 +19,18 @@ class calcComb:
 
     def permutazioni(self, k):
         return len(self.__stringa)**k
-pippo = calcComb("pippo mangia")
-print(pippo.permutazioni(3))
-print(pippo.stringa)
-print(pippo.getStringa())
 
-pippo.setStringa("casa")
-print(pippo.stringa)
-print(pippo.stringalist)
+    def verifica(self):
+        open words.italian.txt
+        if self.__stringa in words.italian.txt:
+            print("la parola esiste")
+        if self.__stringa not in word.italian.txt:
+            print("la parola non esiste")
+
+'pippo = calcComb("pippo mangia")'
+'print(pippo.permutazioni(3))'
+'print(pippo.stringa)'
+'print(pippo.getStringa())'
+'pippo.setStringa("casa")'
+'print(pippo.stringa)'
+'print(pippo.stringalist)'
